@@ -7,7 +7,7 @@ $(call inherit-product-if-exists, vendor/lge/w3c/w3c-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/lge/w3c/overlay
 
-LOCAL_PATH := device/lge/w3c
+LOCAL_PATH := device/lge/w3c/prebuilt
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
